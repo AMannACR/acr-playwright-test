@@ -1,0 +1,21 @@
+{
+  "name": "acr-playwright-test",
+  "version": "1.0.0",
+  "description": "ACR membership registration automated test",
+  "main": "acr-test.js",
+  "scripts": {
+    "test": "node acr-test.js",
+    "test:playwright": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "keywords": ["playwright", "automation", "testing"],
+  "author": "Ashish Mann",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
